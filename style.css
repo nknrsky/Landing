@@ -554,3 +554,53 @@ body {
   .faq-spoiler__br {
     display: none;
   }
+
+  .ready {
+    padding-top: 105px;
+  }
+  .ready p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 402px;
+    height: 30px;
+    border-radius: 33px;
+    background: linear-gradient(90deg, #FFD7A9 0%, #FFAE70 100%);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.571px;
+    text-transform: uppercase;
+    color: #9F06FF;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .ready h2 {
+    max-width: 650px;
+    color: #001A49;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 121.739% */
+    margin: 0 auto;
+    margin-top: 39px;
+    position: relative;
+  }
+  .ready h2::before {
+    display: block;
+    content: "";
+    position: absolute;
+    right: -597px;
+    top: -100px;
+    background: url("../img/ready-decoration.svg");
+    width: 355px;
+    height: 355px;
+  }
+  .ready a {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
