@@ -368,6 +368,45 @@ body {
     right: 0;
   }
 
+  @media (max-width: 1150px) {
+    .achievements__block::before {
+      display: none;
+    }
+  }
+  @media (max-width: 800px) {
+    .achievements__container {
+      padding: 0;
+      padding-top: 77px;
+    }
+  }
+  @media (max-width: 550px) {
+    .achievements__container {
+      padding-top: 50px;
+    }
+    .achievements__block {
+      flex-direction: column;
+      justify-content: space-between;
+      height: 472px;
+      box-sizing: border-box;
+      padding: 17px 0;
+    }
+    .achievements__block dl {
+      flex: none;
+      width: 150px;
+    }
+    .achievements__block dl:not(:last-child)::after {
+      display: block;
+      content: "";
+      width: 1px;
+      height: 112px;
+      background: #E7EAEB;
+      transform: rotate(-90deg);
+      position: absolute;
+      top: 68px;
+      right: 74px;
+    }
+  }
+
   .what {
     padding-top: 149px;
   }
