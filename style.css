@@ -604,3 +604,114 @@ body {
     margin: 0 auto;
     margin-top: 40px;
   }
+
+  .footer {
+    background: rgb(253, 243, 255);
+    padding-top: 63px;
+    padding-bottom: 76px;
+    margin-top: 120px;
+  }
+  .footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 0 35px;
+  }
+  .footer__logo img {
+    width: 150px;
+  }
+  .footer__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 890px;
+    height: 66px;
+    border-radius: 33px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+    padding: 0 8px 0 40px;
+    box-sizing: border-box;
+  }
+  .footer__input {
+    flex-grow: 1;
+    height: 100%;
+    color: #001A49;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+  }
+  .footer__input::-moz-placeholder {
+    color: #4F596A;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .footer__input::placeholder {
+    color: #4F596A;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .footer__input.small {
+    display: none;
+  }
+  .footer__button {
+    width: 135px;
+    height: 50px;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .footer__button:hover {
+    cursor: pointer;
+  }
+  .footer__bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 52px;
+  }
+  .footer__left {
+    margin-left: -6px;
+  }
+  .footer__left .footer__items {
+    width: 410px;
+  }
+  .footer__header {
+    color: #001A49;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  .footer__items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    height: 140px;
+  }
+  .footer__item {
+    color: #4F596A;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    width: 205px;
+    transition: color 0.2s;
+  }
+  .footer__item:hover {
+    color: #CD10FF;
+    cursor: pointer;
+  }
+  .footer__right {
+    margin-left: 38px;
+  }
