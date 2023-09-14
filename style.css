@@ -853,6 +853,107 @@ body {
     display: none;
   }
 
+  @media (max-width: 850px) {
+    .faq {
+      padding-top: 73px;
+    }
+    .faq__container {
+      padding: 0;
+    }
+    .faq-spoiler {
+      padding-top: 40px;
+    }
+    .faq-spoiler__item {
+      padding-top: 20px;
+      padding-left: 25px;
+      padding-right: 35px;
+      padding-bottom: 12px;
+    }
+    .faq-spoiler__item:not(:first-child) {
+      padding-top: 40px;
+      padding-left: 33px;
+    }
+    .faq-spoiler__item:not(:first-child) h3 {
+      line-height: 23px;
+    }
+    .faq-spoiler__header {
+      align-items: start;
+      margin-bottom: 0;
+    }
+    .faq-spoiler__body {
+      margin-top: -6px;
+      width: 83%;
+    }
+    .faq-spoiler__br {
+      display: block;
+    }
+  }
+  @media (max-width: 450px) {
+    .faq {
+      padding-top: 29px;
+    }
+    .faq__header {
+      font-size: 36px;
+      line-height: 45px;
+    }
+    .faq-spoiler__item {
+      position: relative;
+      padding-bottom: 30px;
+      padding-right: 23px;
+    }
+    .faq-spoiler__item:first-child {
+      padding-bottom: 87px;
+      margin-bottom: 35px;
+    }
+    .faq-spoiler__item:not(:first-child) {
+      width: 64vw;
+      padding-top: 27px;
+      padding-left: 24px;
+    }
+    .faq-spoiler__item:not(:first-child) h3 {
+      line-height: 20px;
+    }
+    .faq-spoiler__item.open .faq-spoiler__header h3 {
+      max-width: 173px;
+    }
+    .faq-spoiler__item.open .faq-spoiler__header button {
+      position: absolute;
+      bottom: 20px;
+      right: 27px;
+      width: 48px;
+      height: 48px;
+    }
+    .faq-spoiler__header {
+      font-size: 14px;
+      line-height: 20px;
+      align-items: center;
+    }
+    .faq-spoiler__header button {
+      flex: 0 0 40px;
+      height: 40px;
+    }
+    .faq-spoiler__header button::before, .faq-spoiler__header button::after {
+      width: 6px;
+      height: 2px;
+      top: 20px;
+    }
+    .faq-spoiler__header button::before {
+      left: 15px;
+    }
+    .faq-spoiler__header button::after {
+      left: 19px;
+    }
+    .faq-spoiler__header h3 {
+      max-width: 110px;
+    }
+    .faq-spoiler__body {
+      font-size: 12px;
+      margin-top: 18px;
+      width: 100%;
+      line-height: 18px;
+    }
+  }
+
   .ready {
     padding-top: 105px;
   }
