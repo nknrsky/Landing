@@ -197,3 +197,58 @@ body {
   .promo__video img:hover {
     cursor: pointer;
   }
+
+  .achievements__container {
+    padding-top: 100px;
+  }
+  .achievements__block {
+    position: relative;
+    max-width: 1120px;
+    height: 172px;
+    border-radius: 21px;
+    border: 1px solid #E7EAEB;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .achievements__block::before {
+    display: block;
+    content: "";
+    background-image: url("../img/advantages-decoration.svg");
+    width: 288px;
+    height: 288px;
+    position: absolute;
+    z-index: -1;
+    left: -207px;
+    bottom: -136px;
+  }
+  .achievements__block dl {
+    position: relative;
+    flex: 0 1 33%;
+  }
+  .achievements__block dl dt {
+    color: #001A49;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  .achievements__block dl dd {
+    color: #4F596A;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .achievements__block dl:not(:last-child)::after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 112px;
+    background: #E7EAEB;
+    position: absolute;
+    top: -23px;
+    right: 0;
+  }
