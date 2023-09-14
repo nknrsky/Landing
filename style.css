@@ -252,3 +252,105 @@ body {
     top: -23px;
     right: 0;
   }
+
+  .what {
+    padding-top: 149px;
+  }
+  .what__header {
+    position: relative;
+    color: #001A49;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-left: -14px;
+  }
+  .what__header::before {
+    display: block;
+    content: "";
+    background: url("../img/what-decoration.svg");
+    height: 382px;
+    width: 382px;
+    position: absolute;
+    right: -408px;
+    top: -151px;
+  }
+  .what__about {
+    max-width: 545px;
+    margin: 0 auto;
+    text-align: center;
+    color: #4F596A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 22px;
+    margin-bottom: 60px;
+  }
+  .what__list {
+    list-style-type: none;
+  }
+  .what__item {
+    max-width: 1120px;
+    height: 172px;
+    border-radius: 21px;
+    background: linear-gradient(44deg, rgb(253, 243, 255) 15.75%, rgb(250, 243, 255) 84.63%);
+    margin-bottom: 30px;
+  }
+  
+  .what-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 28px;
+    box-sizing: border-box;
+  }
+  .what-item__left {
+    display: flex;
+  }
+  .what-item__header {
+    color: #001A49;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .what-item__text {
+    max-width: 500px;
+    color: #4F596A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+  .what-item__right {
+    width: 278px;
+    height: 66px;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .what-right__videos, .what-right__hours {
+    flex: 0 1 50%;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .what-right__videos {
+    position: relative;
+  }
+  .what-right__videos::after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 30px;
+    background: #8639B5;
+    position: absolute;
+    right: 0;
+    top: -6px;
+  }
