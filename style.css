@@ -354,3 +354,31 @@ body {
     right: 0;
     top: -6px;
   }
+
+  .instructor {
+    padding-top: 90px;
+  }
+  .instructor__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 382px;
+  }
+  .instructor__left {
+    max-width: 537px;
+  }
+  .instructor__header {
+    color: #001A49;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  .instructor__text {
+    color: #4F596A;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+  }
