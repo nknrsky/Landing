@@ -1004,6 +1004,35 @@ body {
     margin-top: 40px;
   }
 
+  @media (max-width: 1100px) {
+    .ready h2::before {
+      display: none;
+    }
+  }
+  @media (max-width: 730px) {
+    .ready {
+      padding-top: 63px;
+    }
+  }
+  @media (max-width: 480px) {
+    .ready {
+      padding-top: 59px;
+    }
+    .ready p {
+      height: 38px;
+      margin-left: 12px;
+      margin-right: 2px;
+    }
+    .ready h2 {
+      color: #001A49;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 28px;
+      margin-top: 41px;
+    }
+  }
+
   .footer {
     background: rgb(253, 243, 255);
     padding-top: 63px;
