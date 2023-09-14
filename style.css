@@ -729,6 +729,47 @@ body {
     margin-top: 7px;
   }
 
+  @media (max-width: 1150px) {
+    .feedback {
+      margin-top: 72px;
+      padding-bottom: 92px;
+    }
+    .comments {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 550px) {
+    .feedback {
+      margin-top: 127px;
+      padding-top: 32px;
+      padding-bottom: 13px;
+    }
+    .feedback__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .feedback__header {
+      font-size: 40px;
+      line-height: 49px;
+    }
+    .feedback__text {
+      padding: 0 15px;
+      line-height: 28px;
+    }
+    .comments {
+      margin-top: 20px;
+    }
+    .comments__item {
+      flex: auto;
+      height: auto;
+      padding-top: 42px;
+      padding-left: 26px;
+      padding-right: 25px;
+      padding-bottom: 39px;
+    }
+  }
+
   .faq {
     padding-top: 150px;
   }
