@@ -238,6 +238,81 @@ body {
     cursor: pointer;
   }
 
+  @media (max-width: 1000px) {
+    .promo {
+      height: auto;
+    }
+    .promo__container {
+      flex-direction: column;
+      padding-top: 130px;
+    }
+    .promo__left {
+      padding-left: 70px;
+      padding-right: 70px;
+      width: auto;
+    }
+    .promo__video {
+      position: relative;
+      top: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-top: 110px;
+    }
+    .promo__students {
+      justify-content: center;
+      margin-top: 98px;
+      margin-left: -84px;
+    }
+  }
+  @media (max-width: 650px) {
+    .promo__right {
+      padding: 0 10px;
+    }
+    .promo__video {
+      margin-top: 18px;
+      width: 100%;
+      height: 57vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .promo__video img {
+      position: static;
+    }
+  }
+  @media (max-width: 500px) {
+    .promo__container {
+      padding: 0;
+      padding-top: 4px;
+    }
+    .promo__left {
+      padding: 0;
+      padding-top: 20px;
+    }
+    .promo__header {
+      padding-left: 18px;
+      font-size: 24px;
+      font-style: normal;
+      line-height: 30px;
+    }
+    .promo__text {
+      padding-left: 18px;
+    }
+    .promo__students {
+      margin-left: 0;
+      margin-top: 15px;
+    }
+    .promo__students p {
+      margin-left: 0;
+    }
+    .promo__button {
+      display: none;
+    }
+    .promo__video img {
+      width: 36px;
+    }
+  }
+
   .achievements__container {
     padding-top: 100px;
   }
